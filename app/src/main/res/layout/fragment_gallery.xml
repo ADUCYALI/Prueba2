@@ -16,7 +16,7 @@
             android:layout_height="match_parent"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
-            <com.meazza.instagram.common.customization.SquareImageView
+            <com.viinder.social.common.customization.SquareImageView
                 android:id="@+id/iv_image_selected"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

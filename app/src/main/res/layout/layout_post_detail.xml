@@ -7,7 +7,7 @@
 
         <variable
             name="post"
-            type="com.meazza.instagram.data.model.Post" />
+            type="com.viinder.social.data.model.Post" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -41,7 +41,7 @@
             app:layout_constraintTop_toTopOf="@+id/iv_user_photo_post"
             tools:text="@string/fake_username" />
 
-        <com.meazza.instagram.common.customization.SquareImageView
+        <com.viinder.social.common.customization.SquareImageView
             android:id="@+id/iv_post_detail"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

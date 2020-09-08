@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="com.meazza.instagram.ui.post_detail.PostDetailViewModel" />
+            type="com.viinder.social.ui.post_detail.PostDetailViewModel" />
 
     </data>
 
@@ -63,7 +63,7 @@
             app:layout_constraintTop_toTopOf="@+id/tv_username_post"
             app:srcCompat="@drawable/ic_three_points" />
 
-        <com.meazza.instagram.common.customization.SquareImageView
+        <com.viinder.social.common.customization.SquareImageView
             android:id="@+id/iv_post_detail"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

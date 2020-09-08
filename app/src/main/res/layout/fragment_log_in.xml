@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="com.meazza.instagram.ui.auth.log_in.LogInViewModel" />
+            type="com.viinder.social.ui.auth.log_in.LogInViewModel" />
 
     </data>
 

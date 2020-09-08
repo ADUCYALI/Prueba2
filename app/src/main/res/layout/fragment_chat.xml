@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="com.meazza.instagram.ui.direct_message.chat.ChatViewModel" />
+            type="com.viinder.social.ui.direct_message.chat.ChatViewModel" />
 
     </data>
 

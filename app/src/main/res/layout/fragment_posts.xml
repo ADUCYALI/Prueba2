@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="com.meazza.instagram.ui.post.PostsViewModel" />
+            type="com.viinder.social.ui.post.PostsViewModel" />
 
     </data>
 

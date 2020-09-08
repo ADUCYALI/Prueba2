@@ -14,7 +14,7 @@
 
     <fragment
         android:id="@+id/navigation_feed"
-        android:name="com.meazza.instagram.ui.feed.FeedFragment"
+        android:name="com.viinder.social.ui.feed.FeedFragment"
         android:label="fragment_feed"
         tools:layout="@layout/fragment_feed">
         <action
@@ -27,7 +27,7 @@
 
     <fragment
         android:id="@+id/navigation_explore"
-        android:name="com.meazza.instagram.ui.explore.ExploreFragment"
+        android:name="com.viinder.social.ui.explore.ExploreFragment"
         android:label="fragment_explore"
         tools:layout="@layout/fragment_explore">
         <action
@@ -37,7 +37,7 @@
 
     <fragment
         android:id="@+id/navigation_add_post"
-        android:name="com.meazza.instagram.ui.add_post.AddPostContainer"
+        android:name="com.viinder.social.ui.add_post.AddPostContainer"
         android:label="fragment_add_post"
         tools:layout="@layout/fragment_gallery">
         <action
@@ -47,13 +47,13 @@
 
     <fragment
         android:id="@+id/navigation_notification"
-        android:name="com.meazza.instagram.ui.notification.NotificationFragment"
+        android:name="com.viinder.social.ui.notification.NotificationFragment"
         android:label="fragment_notification"
         tools:layout="@layout/fragment_notification" />
 
     <fragment
         android:id="@+id/navigation_current_profile"
-        android:name="com.meazza.instagram.ui.current_profile.CurrentProfileFragment"
+        android:name="com.viinder.social.ui.current_profile.CurrentProfileFragment"
         android:label="CurrentProfileFragment"
         tools:layout="@layout/fragment_current_profile">
         <action
@@ -66,13 +66,13 @@
 
     <fragment
         android:id="@+id/destination_camera"
-        android:name="com.meazza.instagram.ui.camera.CameraFragment"
+        android:name="com.viinder.social.ui.camera.CameraFragment"
         android:label="fragment_camera"
         tools:layout="@layout/fragment_camera" />
 
     <fragment
         android:id="@+id/destination_direct"
-        android:name="com.meazza.instagram.ui.direct_message.DirectFragment"
+        android:name="com.viinder.social.ui.direct_message.DirectFragment"
         android:label="fragment_messages"
         tools:layout="@layout/fragment_direct">
         <action
@@ -82,34 +82,34 @@
 
     <fragment
         android:id="@+id/destination_chat"
-        android:name="com.meazza.instagram.ui.direct_message.chat.ChatFragment"
+        android:name="com.viinder.social.ui.direct_message.chat.ChatFragment"
         android:label="fragment_chat"
         tools:layout="@layout/fragment_chat">
         <argument
             android:name="user"
-            app:argType="com.meazza.instagram.data.model.User" />
+            app:argType="com.viinder.social.data.model.User" />
     </fragment>
 
     <fragment
         android:id="@+id/destination_search"
-        android:name="com.meazza.instagram.ui.explore.search.SearchFragment"
+        android:name="com.viinder.social.ui.explore.search.SearchFragment"
         android:label="fragment_search"
         tools:layout="@layout/fragment_search" />
 
     <fragment
         android:id="@+id/destination_edit_profile"
-        android:name="com.meazza.instagram.ui.current_profile.edit_profile.EditProfileFragment"
+        android:name="com.viinder.social.ui.current_profile.edit_profile.EditProfileFragment"
         android:label="fragment_edit_profile"
         tools:layout="@layout/fragment_edit_profile" />
 
     <fragment
         android:id="@+id/destination_profile"
-        android:name="com.meazza.instagram.ui.profile.ProfileFragment"
+        android:name="com.viinder.social.ui.profile.ProfileFragment"
         android:label="FragmentProfile"
         tools:layout="@layout/fragment_profile">
         <argument
             android:name="user"
-            app:argType="com.meazza.instagram.data.model.User" />
+            app:argType="com.viinder.social.data.model.User" />
         <action
             android:id="@+id/action_chat"
             app:destination="@id/destination_chat" />
@@ -120,7 +120,7 @@
 
     <fragment
         android:id="@+id/destination_edit_image"
-        android:name="com.meazza.instagram.ui.add_post.edit_image.EditImageFragment"
+        android:name="com.viinder.social.ui.add_post.edit_image.EditImageFragment"
         android:label="fragment_filter"
         tools:layout="@layout/fragment_edit_image">
         <argument
@@ -133,22 +133,22 @@
 
     <fragment
         android:id="@+id/destination_create_post"
-        android:name="com.meazza.instagram.ui.add_post.create_post.CreatePostFragment"
+        android:name="com.viinder.social.ui.add_post.create_post.CreatePostFragment"
         android:label="fragment_new_post"
         tools:layout="@layout/fragment_create_post">
         <argument
             android:name="edited_image"
-            app:argType="com.meazza.instagram.data.model.EditedImage" />
+            app:argType="com.viinder.social.data.model.EditedImage" />
     </fragment>
 
     <fragment
         android:id="@+id/destination_post_detail"
-        android:name="com.meazza.instagram.ui.post_detail.PostDetailFragment"
+        android:name="com.viinder.social.ui.post_detail.PostDetailFragment"
         android:label="fragment_post_detail"
         tools:layout="@layout/fragment_post_detail">
         <argument
             android:name="post"
-            app:argType="com.meazza.instagram.data.model.Post" />
+            app:argType="com.viinder.social.data.model.Post" />
         <action
             android:id="@+id/action_comments"
             app:destination="@id/destination_comments" />
@@ -159,37 +159,37 @@
 
     <fragment
         android:id="@+id/destination_followers_list"
-        android:name="com.meazza.instagram.ui.profile.follower_list.FollowersContainer"
+        android:name="com.viinder.social.ui.profile.follower_list.FollowersContainer"
         android:label="container_followers"
         tools:layout="@layout/fragment_following_list">
         <argument
             android:name="user"
-            app:argType="com.meazza.instagram.data.model.User" />
+            app:argType="com.viinder.social.data.model.User" />
     </fragment>
 
     <fragment
         android:id="@+id/destination_comments"
-        android:name="com.meazza.instagram.ui.post_detail.comment.CommentsFragment"
+        android:name="com.viinder.social.ui.post_detail.comment.CommentsFragment"
         android:label="fragment_comments"
         tools:layout="@layout/fragment_comments">
         <argument
             android:name="post"
-            app:argType="com.meazza.instagram.data.model.Post" />
+            app:argType="com.viinder.social.data.model.Post" />
     </fragment>
 
     <fragment
         android:id="@+id/destination_likes"
-        android:name="com.meazza.instagram.ui.post_detail.likes.LikesFragment"
+        android:name="com.viinder.social.ui.post_detail.likes.LikesFragment"
         android:label="fragment_likes"
         tools:layout="@layout/fragment_likes">
         <argument
             android:name="post"
-            app:argType="com.meazza.instagram.data.model.Post" />
+            app:argType="com.viinder.social.data.model.Post" />
     </fragment>
 
     <fragment
         android:id="@+id/fragment_posts"
-        android:name="com.meazza.instagram.ui.post.PostsFragment"
+        android:name="com.viinder.social.ui.post.PostsFragment"
         android:label="PostsFragment"
         tools:layout="@layout/fragment_posts" />
 
@@ -205,7 +205,7 @@
         app:startDestination="@id/destination_welcome">
         <fragment
             android:id="@+id/destination_sign_up"
-            android:name="com.meazza.instagram.ui.auth.sign_up.SignUpFragment"
+            android:name="com.viinder.social.ui.auth.sign_up.SignUpFragment"
             android:label="fragment_sign_in"
             tools:layout="@layout/fragment_sign_up">
             <action
@@ -216,12 +216,12 @@
         </fragment>
         <fragment
             android:id="@+id/destination_reset_password"
-            android:name="com.meazza.instagram.ui.auth.reset_password.ResetPasswordFragment"
+            android:name="com.viinder.social.ui.auth.reset_password.ResetPasswordFragment"
             android:label="fragment_reset_password"
             tools:layout="@layout/fragment_reset_password" />
         <fragment
             android:id="@+id/destination_login"
-            android:name="com.meazza.instagram.ui.auth.log_in.LogInFragment"
+            android:name="com.viinder.social.ui.auth.log_in.LogInFragment"
             android:label="fragment_log_in"
             tools:layout="@layout/fragment_log_in">
             <action
@@ -235,7 +235,7 @@
         </fragment>
         <fragment
             android:id="@+id/destination_welcome"
-            android:name="com.meazza.instagram.ui.auth.WelcomeFragment"
+            android:name="com.viinder.social.ui.auth.WelcomeFragment"
             android:label="fragment_welcome"
             tools:layout="@layout/fragment_welcome">
             <action

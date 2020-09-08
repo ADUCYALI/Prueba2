@@ -50,7 +50,7 @@
 
     </androidx.appcompat.widget.Toolbar>
 
-    <com.meazza.instagram.common.customization.SquarePreviewView
+    <com.viinder.social.common.customization.SquarePreviewView
         android:id="@+id/view_finder"
         android:layout_width="0dp"
         android:layout_height="0dp"

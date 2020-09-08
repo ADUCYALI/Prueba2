@@ -7,7 +7,7 @@
 
         <variable
             name="directMessage"
-            type="com.meazza.instagram.data.model.DirectMessage" />
+            type="com.viinder.social.data.model.DirectMessage" />
 
     </data>
 

@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="com.meazza.instagram.ui.explore.search.SearchViewModel" />
+            type="com.viinder.social.ui.explore.search.SearchViewModel" />
 
     </data>
 
